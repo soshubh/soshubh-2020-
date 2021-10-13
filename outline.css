@@ -1,0 +1,10 @@
+.outline{
+  fill:rgba(0, 0, 0, 0);
+  stroke:transparent;
+
+}
+.outline:hover{
+  fill:rgb(81, 249, 255);
+  stroke:rgb(0, 0, 0);
+ 
+}

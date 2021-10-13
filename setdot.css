@@ -1,0 +1,9 @@
+.dot{
+  position: fixed;
+  /* position:absolute; */
+  width: 1.8em;
+  background-color: rgba(255, 0, 0, 0);
+  right: 0;
+  top: 45%;
+
+}
