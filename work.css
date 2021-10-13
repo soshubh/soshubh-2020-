@@ -1,0 +1,107 @@
+#work{
+    /* background-color: #fff; */
+    overflow: hidden;
+    height: fit-content;
+}
+
+#work .inwork{
+    
+    margin-top: 3%;
+   
+    /* background-color: tomato; */
+  }
+  .imgwork{
+    /* background-color: violet; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgwork svg{
+    /* background-color: white; */
+    height: 60vh;
+    width: 90%;
+  }
+.inwork .mywork{
+    /* background: rgb(151, 151, 151); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    box-shadow: 7px 2px 15px rgb(0, 0, 0);
+    border-top: 2px solid rgb(51, 51, 51);
+    border-left: 2px solid rgba(61, 61, 61, 0.74); 
+    background:linear-gradient(rgba(255, 255, 255, 0.363),rgba(201, 244, 255, 0.376));
+    border-radius: 8px;
+    width: 15em;
+    height: 17em;
+    margin: 1em;
+}
+.card img{
+
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10em;
+    width: 5.1em;
+    height: 5.1em;
+}
+.card img:hover{
+    box-shadow: 0 0 1em rgba(255, 115, 0, 0.507);    
+    border-color: rgb(255, 115, 0);
+
+}
+.card .cardimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.card .botname{
+    /* background-color: aqua; */
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+}
+.card .boturname{
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    font-family:sans-serif;
+}
+.boturname a{
+    text-decoration: none;
+    color: rgb(0, 91, 107);
+}
+.card .botabout{    
+    height: 60px;
+    justify-content: center;
+    font-size: 0.8em;
+    text-align: center;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 9px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.582);
+}
+.card .checkbot{
+    position:relative;
+    bottom: -0.6em;
+    display: flex;
+    justify-content: center;
+}
+.checkbot a{
+    font-family: sans-serif;
+    width: 8em;
+    height: 1.7em;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(red,rgb(0, 0, 0));
+    text-decoration: none;    
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}

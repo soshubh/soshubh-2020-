@@ -1,0 +1,59 @@
+#contact{
+  /* background-color: teal; */
+  /* margin-left: 9px; */
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.incontact{
+  margin-top: 3%;
+  /* background-color: tomato; */
+
+}
+.imgcontact{
+  /* background-color: violet; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcontact svg{
+  /* background-color: white; */
+  height: 60vh;
+  width: 90%;
+}
+.contbg{
+  min-height: 40vh;
+   /* margin-top: -5px; */
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contbg .contbox{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18em;
+  height: 50px;
+  margin: 0.2em;
+  /* background: #000; */
+}
+.contbox .contboximg{
+/* background-color: antiquewhite; */
+ width: 2.5em;
+ /* height: 5em; */
+}
+.contbox a{
+  font-family: sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+   /* background-color: brown; */
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
