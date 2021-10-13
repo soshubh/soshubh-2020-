@@ -1,0 +1,150 @@
+.tree{
+  animation: tree 2s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes tree{
+  from{
+    transform: rotateZ(7deg);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: rotateZ(-5deg);
+   
+  }
+}
+.tree2{
+  animation: tree2 2s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes tree2{
+  from{
+    transform: rotateZ(4deg);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: rotateZ(-2deg);
+   
+  }
+}
+.tree3,.tree4{
+  animation: tree34 2s ease-in-out infinite alternate;
+ 
+   /* transform-origin: bottom; */
+   transform-box: fill-box;
+}
+ @keyframes tree34{
+  from{
+  
+    transform: translateX(13px);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: translateX(-6px);
+   
+  }
+}
+
+
+.sun {
+  animation: sun 4s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ @keyframes sun{
+  from{
+   transform: translateX(34em)
+  }
+ to
+ {
+   transform: translateX(-10em);
+   opacity: 0;
+ }
+ }
+
+ .stree{
+  animation: stree 4s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes stree{
+  from{
+    transform: rotateZ(7deg);
+    
+   }
+  to
+  {
+    transform: rotateZ(-5deg);
+   
+  }
+}
+
+.stree1{
+  animation: stree1 3s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes stree1{
+  from{
+    transform: rotateZ(7deg);
+    
+   }
+  to
+  {
+    transform: rotateZ(-5deg);
+   
+  }
+}
+
+ .br1 {
+  animation: br1 2s ease-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ @keyframes br1{
+  from{transform: translatey(2em) }
+ to
+ {transform: translateX(-1em);}}
+
+
+ .br2 {
+  animation: br2 6s ease infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ @keyframes br2{
+  from{transform: translatey(3em) }
+ to
+ {transform: translatey(-5em);}}
+ .br4 {
+  animation: br4 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ @keyframes br4{
+  from{transform: translatey(-3em) }
+ to
+ {transform: translatey(5em);}}
+ .br3 {
+  animation: br3 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ @keyframes br3{
+  from{transform: translatey(-1em) }
+ to
+ {transform: translatey(2em);}}
+ .line01{
+  
+  animation: line01 1s ease-in-out infinite alternate;}
+  @keyframes line01{
+    from{transform: translateY(1px)}
+    to{transform: translateY(-6px);}}

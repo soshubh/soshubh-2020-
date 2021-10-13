@@ -1,0 +1,140 @@
+
+.imgcontact{
+
+  background-color: rgba(255, 255, 255, 0);
+  width: 747px;
+  right: 2px;
+}
+
+
+.fb{
+  animation: fb 4s ease-in-out infinite alternate;
+}
+
+@keyframes fb{
+  from{transform: translateY(30px);}
+  to{
+    transform: translateY(-5px);}
+}
+
+.ig{
+  animation: ig 3s ease-in-out infinite alternate;
+}
+
+@keyframes ig{
+  from{transform: translateY(5px);}
+  to{
+    transform: translateY(-10px);}
+}
+.yt{
+  animation: yt 2s ease-in-out infinite alternate;
+}
+
+@keyframes yt{
+  from{transform: translateY(-5px);}
+  to{
+    transform: translateY(30px);}
+}
+
+.lin{
+  animation: lin 1s ease-in-out infinite alternate;
+}
+
+@keyframes lin{
+  from{transform: translateY(-2px);}
+  to{
+    transform: translateY(-9px);}
+}
+.msg{
+  animation: msg 5s ease-in-out infinite alternate;
+}
+
+@keyframes msg{
+  from{transform: translateY(20px);}
+  to{
+    transform: translateY(-20px);}
+}
+
+
+.gh{
+  animation: gh 2s ease-in-out infinite alternate;
+}
+
+@keyframes gh{
+  from{transform: translatey(7.5px);}
+  to{
+    transform: translatey(0px);}
+}
+.tw{
+  animation: tw 3s ease-in-out infinite alternate;
+}
+
+@keyframes tw{
+  from{transform: translatey(10px);}
+  to{
+    transform: translatey(-10px);}
+}
+
+
+.streec,.rstreec{
+  animation: streec 2s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes streec{
+  from{
+    transform: rotateZ(3deg);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: rotateZ(-3deg);
+   
+  }
+}
+.btreec,.rbtreec{
+  animation: btreec 4s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes btreec{
+  from{
+    transform: rotateZ(1deg);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: rotateZ(-3deg);
+   
+  }
+}
+.man,.box{
+  animation: man 4s ease-in-out infinite alternate;
+}
+@keyframes man{
+  form{
+   transform: translateX(0px);
+  }
+  to{
+  transform: translateX(30px);
+  }
+}
+.bgc{
+  animation: bgc 4s ease-in-out infinite alternate;
+ 
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+ @keyframes bgc{
+  from{
+    transform: rotateZ(0deg);
+    /* opacity: 0; */
+   }
+  to
+  {
+    transform: rotateZ(3deg);
+   
+  }
+}

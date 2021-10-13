@@ -1,0 +1,161 @@
+.vlinew1{
+  animation:vline1 4s ease-out infinite alternate;
+   transform-origin: bottom;
+   transform-box: fill-box;
+}
+@keyframes vline1{
+from{transform: rotateZ(2deg)}
+to{transform: rotateZ(-17deg)}}
+
+.vlinew2{
+  animation:vline2 2s ease-out infinite alternate;
+   transform-origin: top;
+   transform-box: fill-box;
+}
+@keyframes vline2{
+from{transform: rotateZ(2deg)}
+to{transform: rotateZ(-17deg)}}
+
+.ctw,.tclw{
+  animation:tclw 4s ease-out infinite alternate;
+}
+@keyframes tclw{
+from{transform:translateX(1px)
+}
+to{transform: translateX(-5.2em)}}
+
+.bcw,.bclw{
+  animation:bclw 2s ease-out infinite alternate;
+}
+@keyframes bclw{
+from{transform:translateX(-10px)
+}
+to{transform: translateX(5.7em)}}
+
+.linew1{animation: linew1 2s ease-in-out infinite alternate;}
+@keyframes linew1{
+  from{ transform: translatex(1em);}
+  to{transform: translatex(-1em);}}
+.linew2{animation: linew2 2.2s ease-in-out infinite alternate;}
+  @keyframes linew2{
+  from{ transform: translatex(2em);}
+  to{transform: translatex(-2em);}}
+.linew3{animation: linew3 2.4s ease-in-out infinite alternate;}
+  @keyframes linew3{
+  from{ transform: translatex(3em);}
+  to{transform: translatex(-3em);}}
+.linew4{animation: linew4 2.6s ease-in-out infinite alternate;}
+  @keyframes linew4{
+    from{ transform: translatex(4em);}
+    to{transform: translatex(-4em);}}
+.linew5{animation: linew5 2.8s ease-in-out infinite alternate;}
+    @keyframes linew5{
+    from{ transform: translatex(5em);}
+    to{transform: translatex(-5em);}}
+.linew6{animation: linew6 3s ease-in-out infinite alternate;}
+    @keyframes linew6{
+    from{ transform: translatex(6em);}
+    to{transform: translatex(-6em);}}
+.linew7{animation: linew7 3s ease-in-out infinite alternate;}
+  @keyframes linew7{
+  from{ transform: translatex(1em);}
+  to{transform: translatex(-1em);}}
+.linew8{animation: linew8 3s ease-in-out infinite alternate;}
+  @keyframes linew8{
+  from{ transform: translatex(-1em);}
+  to{transform: translatex(1em);}}
+.linew9{animation: linew9 3s ease-in-out infinite alternate;}
+  @keyframes linew9{
+  from{ transform: translatex(1em);}
+  to{transform: translatex(-1em);}}
+.linew10{animation: linew10 3s ease-in-out infinite alternate;}
+  @keyframes linew10{
+  from{ transform: translatex(-1em);}
+  to{transform: translatex(1em);}}
+
+
+ .rhw{animation: rhw 3s ease-in-out infinite alternate;}
+  @keyframes rhw{
+  from{ transform: translatex(-0.6em);}
+  to{transform: translatex(2em);}} 
+.raw{  animation: raw 3s ease-in-out infinite alternate;
+
+  transform-origin: top;
+  transform-box: fill-box;
+
+}
+@keyframes raw{
+from{ transform: rotateZ(2deg);}
+to{transform: rotateZ(-8deg);}}
+.dotw1{ animation: dot1 0.5s ease infinite alternate;
+}
+@keyframes dot1{
+  from{transform: translateY(12px); }
+  to{transform: translateY(-10px);}}
+.dotw2{ animation: dot2 0.6s ease infinite alternate;}
+    @keyframes dot2{
+      from{transform: translateY(12px); }
+      to{transform: translateY(-10px);}}    
+.dotw3{ animation: dot3 0.7s ease infinite alternate;
+      }
+      @keyframes dot3{
+        from{transform: translateY(12px); }
+        to{transform: translateY(-10px);}}
+.boxw1{
+  animation: box1 1s ease-in-out infinite alternate;
+}
+@keyframes box1{
+  form{transform: translateY(0);}
+  to{transform: translateY(10px);}
+}
+.boxw2{
+  animation: box2 1s ease-in-out infinite alternate;
+}
+@keyframes box2{
+  form{transform: translateY(0);}
+  to{transform: translateY(-10px);}
+}
+.boxw4{
+  animation: box4 5s ease-in-out infinite alternate;
+}
+@keyframes box4{
+  form{transform: translateY(0);}
+  to{transform: translateY(2.2em);}
+}
+.boxw0{
+  animation: box0 2s ease-in-out infinite alternate;
+}
+@keyframes box0{
+  form{transform: translatex(0);}
+  to{transform: translatex(-2.2em);}
+}
+.boxw3{
+  animation: box0 4s ease-in-out infinite alternate;
+}
+@keyframes box0{
+  form{transform: translatex(0);}
+  to{transform: translatex(2em);}
+}
+.mlw{
+  animation:ml 3s infinite linear alternate;
+}
+@keyframes ml{
+  from{
+    transform: translateX(3px);
+
+  }
+  to{
+    transform: translateX(-5px);
+
+  }
+}
+
+.law{  animation: law 3s ease-in-out infinite alternate;
+
+  transform-origin: top;
+  transform-box: fill-box;
+
+}
+@keyframes law{
+from{ transform: rotateZ(0deg);}
+to{transform: rotateZ(5deg);}}

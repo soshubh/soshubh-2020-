@@ -1,0 +1,130 @@
+/* .img{
+  width: 20px;
+  height: 40px;
+} */
+#colorcircul{
+  animation: wheel 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+ }
+ 
+ @keyframes wheel{
+  from{transform: rotateZ(0deg)}
+  to{transform: rotateZ(360deg)}}
+ .leg{
+   animation: leg 1s ease-in-out infinite alternate;
+   transform-origin: bottom;
+   transform-box: fill-box;
+  }
+  @keyframes leg{
+   from{
+    transform: rotateZ(7deg)
+   }
+  to
+  {
+    transform: rotateZ(-5deg)
+  
+  }
+  }
+ #hand {
+   animation: han 4s ease-in-out infinite alternate;
+   transform-origin: center;
+   transform-box: fill-box;
+  }
+  @keyframes han{
+   from{
+    transform: rotateZ(-5deg)
+   }
+  to
+  {
+    transform: rotateZ(-30deg)
+  
+  }
+  }
+ 
+ .box1,.box2,.box3{
+   animation: box 2s ease-in-out infinite alternate;
+ }
+ 
+ @keyframes box{
+   from{
+     transform: translateY(20px)
+   }
+   to{
+     transform: translateY(-30px);
+   }
+ }
+ 
+ .blackbox1{
+   fill: rgb(0, 0, 0);
+   animation: blackbox1 2s ease-in-out infinite alternate;}
+ .blackbox2{
+   fill: rgb(0, 0, 0);
+   animation: blackbox2 4s ease-in-out infinite alternate;}
+ .blackbox3 {
+   fill: rgb(0, 0, 0);
+   animation: blackbox3 3s ease-in-out infinite alternate;}
+ 
+   @keyframes blackbox1{
+   from{transform: translateY(40px)}
+   to{transform: translateY(-40px);}}
+   @keyframes blackbox2{
+   from{transform: translateY(40px)}
+   to{transform: translateY(-35px);}}
+   @keyframes blackbox3{
+   from{transform: translateY(50px)}
+   to{transform: translateY(0px);}}
+ 
+ #camera{
+  fill: rgb(255, 255, 255);
+  animation: cam 2s ease infinite alternate;
+ }
+ @keyframes cam{
+   from{opacity: 1;}
+   to{opacity: 0;}}
+ 
+ .line4{
+   animation: line4 4s ease-in-out infinite alternate;
+ }
+ @keyframes line4{
+    from{transform: translateY(4px);}
+   to{transform: translateY(-2px);}}
+ 
+ .line1{animation: line1 2s ease-in-out infinite alternate;}
+ @keyframes line1{
+    from{transform: translateX(20px);}
+   to{transform: translateX(-20px);}}
+ .line2{animation: line2 2s ease-in-out infinite alternate;}
+ @keyframes line2{
+    from{transform: translateX(15px);}
+   to{transform: translateX(-15px);}}
+ .line3{animation: line3 2s ease-in-out infinite alternate;}
+ @keyframes line3{
+    from{transform: translateX(10px);}
+   to{transform: translateX(-10px);}}
+ .incbox{animation: incb 1s ease-in-out infinite alternate;}
+ @keyframes incb{
+   from{
+      transform: translatey(2px);
+   }
+   to{
+     transform: translatey(5.5px);}}
+ 
+ .inbox{animation: inb 1s ease-in-out infinite alternate;}
+ @keyframes inb{
+   from{transform: translatex(-2px);}
+   to{transform: translatex(-5.5px);}}
+
+
+
+
+/* @media  screen and (max-width:650px) {
+  .svg{
+   overflow: hidden;
+    
+    margin-top:5em;
+    height: 7em;
+    width: 10em;
+  }
+
+   }    */
