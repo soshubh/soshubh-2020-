@@ -1,0 +1,35 @@
+
+.spin{
+
+  color: rgba(255, 255, 255, 0.219);
+  font-size: 2em;
+background-color: rgba(0, 0, 0, 0);
+margin-top: 0;
+
+}
+#spin{
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 50%;
+  height:2.2em
+  
+}
+
+.spin::after{
+  content: "hghtd";
+  animation: spin 9s linear infinite;
+}
+@keyframes spin{
+  0%{content: "swagatam!";}
+  15%{content: "WELCOME!";}
+  25%{content: "Willkommen!";}
+  35%{content: "Bienvenue!";}
+  45%{content: "Välkommen!";}
+  55%{content: "namaste!";}
+  70%{content: "Konnichiwa!";}
+  80%{content: "Salve!";}
+  90%{content: "Yassas!";}
+  100%{content: "Asalaam Alaikum!";}
+
+}
