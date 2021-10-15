@@ -17,6 +17,8 @@
   height: 50vh;
   width: 95%;
   /* background-color: blueviolet; */
+  animation: img var(--load-time) ease-in;
+
 }
 .inabout .aboutpg{
   display: flex;
@@ -30,6 +32,8 @@
    font-size: 1.4em;
    width: 90%;
    text-align: center;
+   animation: page var(--load-time) ease-in;
+
  }
  .aboutpg p a{
    text-decoration: none;
