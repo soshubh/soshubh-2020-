@@ -21,12 +21,16 @@
     /* background-color: white; */
     height: 60vh;
     width: 90%;
+    animation: img var(--load-time) ease-in;
+
   }
 .inwork .mywork{
     /* background: rgb(151, 151, 151); */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    animation: page var(--load-time) ease-in;
+
 }
 .card{
     box-shadow: 7px 2px 15px rgb(0, 0, 0);
