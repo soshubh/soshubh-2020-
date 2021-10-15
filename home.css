@@ -16,7 +16,7 @@
   /* background-color: white; */
   height: 40vh;
   width: 95%;
-  animation: img 5s ease-in;
+  animation: img var(--load-time) ease-in;
 }
 .inhome .homepg{
  display: flex;
