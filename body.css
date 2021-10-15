@@ -9,6 +9,7 @@
 body{
 background:linear-gradient(rgba(251, 28, 255, 0.575),
 rgba(27, 225, 255, 0.356)) no-repeat fixed;  
+--load-time:1s;  
 
 }
 
